@@ -59,7 +59,7 @@ Install the required dependencies using pip:
 - Pip (Python package installer)
 
 ### Download the Pre trained Model
-1. Download the pretrained model from this link.
+1. Download the pretrained model from this link: models/pretrained_models
 2. Place the downloaded model file in the models/pretrained_models directory.
 
 ### Create and Preprocess the Dataset
@@ -77,14 +77,15 @@ python src/main.py
 
 ### Using the UI
 1. Open the application.
+   
    ![image](https://github.com/rosmry/ISL_Recognition_Model/assets/131836824/3b3be516-0b8b-4294-b1af-1a59692cc1db)
 
 
-2. Click on 'Text' for text-based results or 'Audio' for audio results.
+3. Click on 'Text' for text-based results or 'Audio' for audio results.
    
-3. Perform the sign in front of your webcam.
-4. View the predicted output below the webcam feed.
-5. The final direction output is given based on user's prefernce.
+4. Perform the sign in front of your webcam.
+5. View the predicted output below the webcam feed.
+6. The final direction output is given based on user's prefernce.
 
 ### Dataset
 The dataset used for this project consists of 9 words, each represented by a folder containing video samples. The dataset is organized in the data/sign_language_dataset directory.
