@@ -59,8 +59,15 @@ Install the required dependencies using pip:
 - Pip (Python package installer)
 
 ### Download the Pre trained Model
-1. Download the pretrained model from this link: models/pretrained_models
-2. Place the downloaded model file in the models/pretrained_models directory.
+1. Download the pretrained model from this link: Click [here](models/pretrained_models/sign_language_model.h5) to view the pretrained model.
+
+## Other Links
+
+- [Requirements](requirements.txt)
+- [Main Script](src/main.py)
+
+   
+3. Place the downloaded model file in the models/pretrained_models directory.
 
 ### Create and Preprocess the Dataset
 1. Create the Video Dataset: Ensure you have the necessary video samples for each sign.
