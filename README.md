@@ -60,14 +60,7 @@ Install the required dependencies using pip:
 
 ### Download the Pre trained Model
 1. Download the pretrained model from this link: Click [here](models/pretrained_models/sign_language_model.h5) to view the pretrained model.
-
-## Other Links
-
-- [Requirements](requirements.txt)
-- [Main Script](src/main.py)
-
-   
-3. Place the downloaded model file in the models/pretrained_models directory.
+2. Place the downloaded model file in the models/pretrained_models directory.
 
 ### Create and Preprocess the Dataset
 1. Create the Video Dataset: Ensure you have the necessary video samples for each sign.
@@ -94,7 +87,7 @@ python src/main.py
 5. View the predicted output below the webcam feed.
 6. The final direction output is given based on user's prefernce.
 
-### Dataset
+## Dataset
 The dataset used for this project consists of 9 words, each represented by a folder containing video samples. The dataset is organized in the data/sign_language_dataset directory.
 
 data/
@@ -117,7 +110,7 @@ Inside this directory, create subfolders for each word you want to recognize. Fo
 4. Store Preprocessed Videos: Create a new directory to store the preprocessed video dataset. This can be within your local project directory or another location in your Google Drive. Save the preprocessed video frames or processed data into this directory.
 5. Update Preprocessing Code: Ensure your preprocessing code correctly reads videos from the input path and saves preprocessed data to the specified output path. Adjust the code to handle any specific requirements, such as converting videos to frames etc.
 
-### Model
+## Model
 1. The model used for Indian Sign Language recognition is a neural network implemented using TensorFlow and Keras.
 2. The labels (sign language words) are encoded into numerical values using LabelEncoder, and then converted into one-hot encoded vectors using to_categorical.
 3. The dataset is split into training, testing and validation sets using train_test_split from sklearn.
@@ -126,10 +119,11 @@ Inside this directory, create subfolders for each word you want to recognize. Fo
 6. The model's performance is evaluated on the test set to determine the accuracy.
 7. After training, the model is saved in the models/pretrained_models directory for later use.
 
-## Pretrained Models
-If you prefer to use a pretrained model instead of training from scratch, you can download the pretrained model from this link and place it in the models/pretrained_models directory. The model should be named sign_language_model.h5.
+### Pretrained Models
+If you prefer to use a pretrained model instead of training from scratch, you can download the pretrained model from [this link](models/pretrained_models/sign_language_model.h5) and place it in the `models/pretrained_models` directory. The model should be named `sign_language_model.h5`.
 
-### Contact
+
+## Contact
 Rose Mary Jose 
 rosemaryjose152@gmail.com
 
